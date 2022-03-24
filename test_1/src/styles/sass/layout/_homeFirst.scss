@@ -1,0 +1,23 @@
+.homeScreen {
+    background-image: url('../images/Vector_2640.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    > h1 {
+        font-family: 'Source Code Pro';
+        color: white;
+        font-size: 25px;
+        margin: 0;
+    }
+    > section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+    }
+}

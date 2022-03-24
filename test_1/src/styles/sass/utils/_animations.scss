@@ -1,0 +1,37 @@
+@keyframes formLines {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+} 
+
+@keyframes formTop {
+    0% {
+        transform: translateY(300px);
+        opacity: 0;
+        height: 0%;
+        
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+        height: 100%;
+    }
+}
+
+@keyframes buttonTop {
+    0% {
+        transform: translateY(0px);
+        opacity: 1;
+        height: 100%;
+    }
+    100% {
+        transform: translateY(-300px);
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+        height: 0%;
+    }
+}

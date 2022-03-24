@@ -1,0 +1,42 @@
+.buttonHome {
+    width: 100%;
+    height: auto;
+    padding: 20px 50px;
+    font-family: 'Source Code Pro';
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 4px 4px 20px  grey;
+    background: linear-gradient(to right, var(--colorPrimary), var(--colorSecondary));
+    animation: buttonTop 2s reverse ease-in;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.buttonForm {
+    width: 100%;
+    text-align: center;
+    .buttonSignin {
+        width: 80%;
+        height: auto;
+        padding: 20px 50px;
+        font-family: 'Source Code Pro';
+        font-weight: 600;
+        font-size: 15px;
+        color: white;
+        border-radius: 25px;
+        border: none;
+        box-shadow: 4px 4px 20px  grey;
+        background: linear-gradient(to right, var(--colorPrimary), var(--colorSecondary));
+        transition-duration: 1.5s;
+        transition: all 1.5s;
+        &:focus {
+            transform: scale(1.1);
+        }
+    }
+}
+
+
