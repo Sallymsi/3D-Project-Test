@@ -3,6 +3,7 @@ import '../styles/sass/main.scss';
 import Button from '../components/Button';
 import Form from '../components/Form';
 import FormRegister from '../components/FormRegister';
+import Cube from '../components/Cube';
 
 
 function HomeFirst() {
@@ -11,7 +12,7 @@ function HomeFirst() {
 
     return (
         <div className='homeScreen'>
-            <h1>Êtes-vous prêt ?</h1>
+            <Cube />
             {!isActiveRegister && !isActiveRegister && (
                 <Button label="Se connecter" onClick={() => setIsActiveRegister(true)} className="buttonRegister"/>
             )}

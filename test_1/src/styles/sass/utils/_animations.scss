@@ -25,13 +25,21 @@
     0% {
         transform: translateY(0px);
         opacity: 1;
-        height: 100%;
     }
     100% {
         transform: translateY(-300px);
         opacity: 0;
         display: none;
         visibility: hidden;
-        height: 0%;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+        
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
     }
 }

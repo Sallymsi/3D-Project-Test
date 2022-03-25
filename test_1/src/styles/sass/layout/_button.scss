@@ -6,11 +6,11 @@
     font-family: 'Source Code Pro';
     font-weight: 600;
     font-size: 25px;
-    color: white;
+    color: whitesmoke;
     border-radius: 25px;
     border: none;
     box-shadow: 4px 4px 20px  grey;
-    background: linear-gradient(to right, var(--colorPrimary), var(--colorSecondary));
+    background: linear-gradient(to right, $primary, $secondary);
     animation: buttonTop 2s reverse ease-in;
     &:hover {
         transform: scale(1.1);
@@ -27,11 +27,11 @@
         font-family: 'Source Code Pro';
         font-weight: 600;
         font-size: 15px;
-        color: white;
+        color: whitesmoke;
         border-radius: 25px;
         border: none;
         box-shadow: 4px 4px 20px  grey;
-        background: linear-gradient(to right, var(--colorPrimary), var(--colorSecondary));
+        background: linear-gradient(to right, $primary, $secondary);
         transition-duration: 1.5s;
         transition: all 1.5s;
         &:focus {
@@ -49,12 +49,18 @@
     font-family: 'Source Code Pro';
     font-weight: 600;
     font-size: 25px;
-    color: white;
+    color: whitesmoke;
     border-radius: 25px;
     border: none;
     background: none;
     &:hover {
         transform: scale(1.1);
+    }
+    @media (max-width: 1000px) {
+        font-size: 20px;
+    }
+    @media (max-width: 650px) {
+        font-size: 15px;
     }
 }
 
