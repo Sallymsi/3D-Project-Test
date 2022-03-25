@@ -1,4 +1,5 @@
 .buttonHome {
+    cursor: pointer;
     width: 100%;
     height: auto;
     padding: 20px 50px;
@@ -36,6 +37,24 @@
         &:focus {
             transform: scale(1.1);
         }
+    }
+}
+
+.buttonRegister {
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: auto;
+    font-family: 'Source Code Pro';
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    background: none;
+    &:hover {
+        transform: scale(1.1);
     }
 }
 
