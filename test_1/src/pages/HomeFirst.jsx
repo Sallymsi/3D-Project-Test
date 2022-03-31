@@ -4,6 +4,7 @@ import Button from '../components/Button';
 import Form from '../components/Form';
 import FormRegister from '../components/FormRegister';
 import Cube from '../components/Cube';
+import House from '../components/House';
 
 
 function HomeFirst() {
@@ -12,7 +13,8 @@ function HomeFirst() {
 
     return (
         <div className='homeScreen'>
-            <Cube />
+            {/*<Cube />*/}
+            <House />
             {!isActiveRegister && !isActiveRegister && (
                 <Button label="Se connecter" onClick={() => setIsActiveRegister(true)} className="buttonRegister"/>
             )}
@@ -35,3 +37,4 @@ function HomeFirst() {
 }
 
 export default HomeFirst;
+
