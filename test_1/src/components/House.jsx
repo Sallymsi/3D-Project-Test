@@ -5,13 +5,13 @@ import '../styles/sass/main.scss';
 
 const House = () => {
 
-    let img = require('../assets/totoro.glb')
+    let img = require('../assets/home.glb')
 
     return (
             <GLTFModel  src={img}
                         enabled={true}
-                        enableZoom={false}
-                        position={{ x: 0, y: -20, z: -10}}
+                        enableZoom={true}
+                        position={{ x: 0, y: 0, z: 20}}
                         width="800"
                         height="800">
 
